@@ -1,0 +1,162 @@
+@charset "utf-8";
+body {
+	background-image: url(imagenes/download.jpg);
+}
+#TiTulo {
+	position: absolute;
+	height: 117px;
+	width: 1002px;
+	left: 263px;
+	top: 339px;
+	color: #FFFCFC;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	text-decoration: none;
+}
+.mislinks {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 60px;
+	text-decoration: none;
+}
+.mislinks:hover {
+	text-decoration: underline;
+	color: #FF0004;
+}
+#Inicio {
+	position: absolute;
+	height: 100px;
+	width: 704px;
+	left: 302px;
+	top: 140px;
+	background-color: #7CBFCC;
+	border-radius: 18px;
+	border: thick dashed #0C0B0B;
+}
+.Titulos {
+	font-size: xx-large;
+	color: #FDFDFD;
+	text-align: center;
+}
+#PP {
+	position: absolute;
+	height: 100px;
+	width: 1002px;
+	left: 48px;
+	top: 7px;
+	color: #FCFCFC;
+}
+#cabecera {
+	background-color: #FB935B;
+	position: absolute;
+	height: 80px;
+	width: 909px;
+	left: 307px;
+	top: 152px;
+	text-align: center;
+}
+#cabecera:hover {
+	border: thick dashed #010101;
+}
+
+.links {
+	color: #010101;
+	font-weight: bold;
+	text-decoration: none;
+}
+.links:hover {
+	color: #2002C5;
+	text-decoration: underline;
+}
+#f {
+}
+#f:hover {
+	background-image: url(imagenes/images.png);
+	border: thick solid #32B619;
+}
+#Texto {
+	background-color: #A4E9EF;
+	position: absolute;
+	height: 443px;
+	width: 905px;
+	left: 315px;
+	border-radius: 19px;
+	top: 293px;
+	border: medium solid #000000;
+}
+#form1 p #form {
+	float: right;
+}
+{
+  background-color:#333;
+}
+
+.galeria {
+  height: calc( 300px + 3em);
+  width: 260px;
+  margin:1em auto;
+  border: 1px solid #555;
+  position: relative;  
+}
+
+.galeria img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.galeria input[type=radio] {
+  position: relative;
+  bottom: calc(-300px - 1.5em);
+  left: .5em;
+}
+
+.galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+#nooo {
+	background-color: #C069CF;
+	position: absolute;
+	height: 558px;
+	width: 878px;
+	left: 319px;
+	top: 251px;
+}
+#corazon {
+}
+#corazon:hover {
+	border: thick dotted #EB0505;
+}
+p a #jesu {
+}
+p a #jesu:hover  {
+	border: thick solid #000000;
+}
+
+
+
+
+.siisss {
+	position: absolute;
+	height: 100px;
+	width: 227px;
+	left: 10px;
+	top: 325px;
+	color: #FCF9F9;
+	font-weight: bold;
+}
